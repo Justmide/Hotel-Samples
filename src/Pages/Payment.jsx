@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import NairaSymbol, { formatNaira } from '../components/NairaSymbol';
+import NairaSymbol, { formatNaira } from '../Components/NairaSymbol';
 
 const Payment = () => {
   const [bookingData, setBookingData] = useState(null);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Add this import
-import NairaSymbol, { formatNaira } from '../components/NairaSymbol';
+import { useNavigate } from 'react-router-dom'; 
+import NairaSymbol, { formatNaira } from '../Components/NairaSymbol';
 
 const Booking = () => {
   const [bookingData, setBookingData] = useState({

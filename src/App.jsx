@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './Pages/LandingPage'
 import Booking from './Pages/Booking'

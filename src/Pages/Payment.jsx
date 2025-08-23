@@ -15,7 +15,7 @@ const Payment = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  // Sample room data (in a real app, this would come from your database)
+
   const roomOptions = [
     { id: 1, name: 'Executive Suite', price: 85000 },
     { id: 2, name: 'Presidential Suite', price: 175000 },
@@ -25,7 +25,7 @@ const Payment = () => {
   ];
 
   useEffect(() => {
-    // In a real application, you would get this data from your state management or API
+
     if (location.state && location.state.bookingData) {
       setBookingData(location.state.bookingData);
     } else {
@@ -83,8 +83,8 @@ const Payment = () => {
 
   return (
     <section className="py-16 bg-cream min-h-screen">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-[100px]">
+        <div className="text-center mb-12 ">
           <h2 className="text-3xl md:text-4xl font-bold text-dark-blue">Complete Your Booking</h2>
           <p className="text-lg text-gray-600 mt-4">
             Review your details and choose a payment method

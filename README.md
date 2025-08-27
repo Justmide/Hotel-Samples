@@ -1,4 +1,4 @@
-# ✨ Brava Hotel — Luxury Landing Page
+# ✨ Hotel — Luxury Landing Page
 
 Welcome to **Brava Hotel**, a modern, elegant, and fully responsive landing page for luxury hotels. Crafted with **Vite + React** and styled using **Tailwind CSS (CDN)**, this project is perfect for showcasing premium hospitality experiences.
 
@@ -31,7 +31,7 @@ Welcome to **Brava Hotel**, a modern, elegant, and fully responsive landing page
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Justmide/Hotel-Samples.git
-   cd hotel-aurora
+   cd hotel-samples
    ```
 
 2. **Install dependencies**

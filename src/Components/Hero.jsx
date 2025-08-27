@@ -32,10 +32,9 @@ const Hero = () => {
     <section id="home" className="relative bg-dark-blue overflow-hidden">
       {/* Background image with overlay and parallax effect */}
       <div
-        className="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center relative"
+        className="h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center relative bg-parallax"
         style={{
-          backgroundImage: `linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url(${bgImg})`,
-          backgroundAttachment: 'fixed'
+          backgroundImage: `linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url(${bgImg})`
         }}
       >
         {/* Animated floating elements */}
@@ -146,6 +145,11 @@ const Hero = () => {
         }
         .animate-scroll {
           animation: scroll 2s infinite;
+        }
+        @media (min-width: 768px) {
+          .bg-parallax {
+            background-attachment: fixed;
+          }
         }
       `}</style>
     </section>

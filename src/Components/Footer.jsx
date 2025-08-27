@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-serif font-semibold text-gold mb-4">Brava Hotel</h3>
+            <h3 className="text-xl font-serif font-semibold text-gold mb-4">THEJAGSIBADAN</h3>
             <p className="text-sm">Experience the epitome of luxury and comfort in the heart of the city.</p>
           </div>
           
@@ -24,7 +24,7 @@ const Footer = () => {
               <p>123 Luxury Avenue</p>
               <p>City, State 10001</p>
               <p className="mt-2">Phone: +23470000000000</p>
-              <p>Email: info@bravahotel.com</p>
+              <p>Email: info@thejagsibadan.com</p>
             </address>
           </div>
           
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-cream border-opacity-20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm">© 2025 Brava Hotel. All rights reserved.</p>
+          <p className="text-sm">© 2025 THEJAGSIBADAN Hotel. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-cream hover:text-gold transition duration-300">
               <span className="sr-only">Facebook</span>

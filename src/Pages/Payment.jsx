@@ -250,21 +250,21 @@ const Payment = () => {
               ) : (
                 <div className="bank-transfer-details">
                   <div className="bg-gray-50 p-6 rounded-lg mb-6">
-                    <h4 className="font-semibold text-dark-blue mb-4">Bank Transfer Instructions</h4>
-                    <div className="space-y-3">
-                      <div className="flex justify-between">
+                    <h4 className="font-semibold text-dark-blue mb-4 text-center">Bank Transfer Instructions</h4>
+                    <div className="space-y-7">
+                      <div className="flex-col flex text-center ">
                         <span className="text-gray-600">Bank Name:</span>
                         <span className="font-medium">ABC Bank NG</span>
                       </div>
-                      <div className="flex justify-between">
+                      <div className="flex-col flex text-center justify-between">
                         <span className="text-gray-600">Account Name:</span>
-                        <span className="font-medium">Brava Hotels Ltd.</span>
+                        <span className="font-medium">THEJAGSIBADAN</span>
                       </div>
-                      <div className="flex justify-between">
+                      <div className="flex-col flex text-center ">
                         <span className="text-gray-600">Account Number:</span>
                         <span className="font-medium">0123456789</span>
                       </div>
-                      <div className="flex justify-between">
+                      <div className="flex-col flex text-center ">
                         <span className="text-gray-600">Amount:</span>
                         <span className="font-medium text-gold">{formatNaira(bookingData.price)}</span>
                       </div>

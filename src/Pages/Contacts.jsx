@@ -82,8 +82,8 @@ const Contacts = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-dark-blue">Email</h4>
-                    <p className="text-gray-600">info@bravahotel.com</p>
-                    {/* <p className="text-gray-600">reservations@bravahotel.com</p>\ */}
+                    <p className="text-gray-600">info@thejagsibadan.com</p>
+                    {/* <p className="text-gray-600">reservations@thejagsibadan.com</p>\ */}
                   </div>
                 </div>
                 
